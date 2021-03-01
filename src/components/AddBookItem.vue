@@ -41,7 +41,7 @@
                     this.$emit('edit-book-event', bookItem);
                     // clear input field
                     this.title = '';
-                    this.edit === false;
+                    this.edit = false;
                 }
             }
         },
